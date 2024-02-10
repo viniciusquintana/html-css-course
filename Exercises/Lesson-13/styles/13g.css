@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  width: 460px;
+}
+
+
+.tweet{
+  margin-left: 15px;
+}
+
+.user-profile-picture {
+  height: 60px;
+  border-radius: 30px;
+}
+
+.tweet-author {
+  display: flex;
+}
+
+.tweet-author-name {
+  font-weight: bold;
+}
+
+.tweet-author-handle{
+  margin-left: 5px;
+  color: rgb(114, 114, 114);
+}
+
+.tweet-content {
+  margin-top: 8px;
+}
+
+.tweet-link {
+  display: flex;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(204, 204, 204);
+  border-radius: 25px;
+  margin-top: 10px;
+  overflow: hidden;
+}
+
+.tweet-link-image {
+  width: 150px;
+  height: 105px;
+  background-color: rgb(204, 204, 204);
+ 
+}
+
+.tweet-link-container {
+  margin-top: 15px;
+  margin-left: 14px;
+}
+
+.tweet-link-adress {
+  color: rgb(63, 63, 63);
+  margin-bottom: 10px;
+}
+
+.tweet-link-content {
+  margin-bottom: 15px;
+}
