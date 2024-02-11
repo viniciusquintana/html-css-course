@@ -27,6 +27,7 @@
 
 .thumbnail-row {
   margin-bottom: 8px;
+  position: relative;
 }
 
 .profile-picture-container {
