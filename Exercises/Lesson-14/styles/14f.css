@@ -1,0 +1,54 @@
+body {
+  height: 3000px;
+  font-family: arial;
+}
+
+.sidebar-1{
+  background-color: rgb(32, 34, 37);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 60px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+.picture {
+  height: 50px;
+  width: 50px;
+  object-fit: cover;
+  border-radius: 25px;
+  margin-bottom: 4px;
+}
+
+.sidebar-2 {
+  background-color: rgb(48, 49, 54);
+  margin-left: 60px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 160px;
+  padding: 15px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.name {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.add {
+  color: rgb(143, 146, 150);
+  font-size: 24px;
+}
+
+.channels {
+  color: rgb(143, 146, 150);
+  padding-bottom: 18px;
+}
